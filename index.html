@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ProgressBar 20 Copy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.cdnfonts.com/css/nokia-3410" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  
+</style>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Progress Bar Game 20 Copy</h1>
+      <nav>
+        <ul>
+          <li><a href="#instructions" >How to play</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Leaderboards</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="game">
+      <div class="overlay"></div>
+        <div class="startOverlay">
+          <button>Play</button>
+        </div>
+<div class="timer">
+  <div class="secs"></div>
+  <span>:</span>
+  <div class="mints"></div>
+</div>
+
+    <div class="currSegmet" style="text-align: center"></div>
+    <div class="btns">
+      <div class="catch btn">Catch This Segmet</div>
+      <div class="shy btn">Shy Away This Segmet</div>
+    </div>
+    <div class="segmetsContainer">
+      <div class="score">
+
+      </div>
+    </div>
+    </div>
+    
+
+    
+
+    <div class="ins" id="instructions"> 
+      <h1>How to play</h1>
+      <div class="boxes">
+        <div class="box buttonBox">
+          <span>
+          <div class="catch btn">Catch This Segmet</div>
+</span>
+          <div class="description">
+            the button <b>Catch</b> means agree this segmet
+          </div>
+        </div>
+
+        <div class="box buttonBox">
+          <span>
+          <div class="shy btn">Shy Away This Segmet</div>
+          </span>
+          <div class="description">
+            the segmet <b>Shy Away</b> means disagree this segmet
+          </div>
+        </div>
+
+        <div class="box">
+          <span color="red"></span>
+          <div class="description">
+            the segmet <span>red</span> means losing it will make your score 0
+          </div>
+        </div>
+        <div class="box">
+          <span color="pink"></span>
+          <div class="description">
+            the segmet <span>pink</span> means minus 5 of score
+          </div>
+        </div>
+        <div class="box">
+          <span color="blue"></span>
+          <div class="description">
+            the segmet <span>blue</span> means plus 5 score , when you reach 100 you'll win
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
