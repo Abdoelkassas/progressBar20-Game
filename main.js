@@ -1,7 +1,7 @@
 let rand = function(arg) {
   return arg[parseInt(Math.random() * arg.length)]
 }
-let segmets = ["blue", "blue"/*,"pink", "red"*/]
+let segmets = ["blue", "blue","pink", "red"]
 
 
 // Starting The Game
@@ -107,9 +107,6 @@ function main() {
     document.body.innerHTML = `<h1 style="text-align:center;">You Won</h1> <div>${timer(true)}</div> <button class="playAgain btn" style="display: block;margin: auto;">Play again</button>`
     document.querySelector(".playAgain").onclick = () => location.reload();
   }
-
-
-
 }
 
 shyBtn.onclick = function() {
@@ -117,15 +114,6 @@ shyBtn.onclick = function() {
 }
 
 main();
-
-
-
-
-
-
- 
-
-
 
 
 // styling
